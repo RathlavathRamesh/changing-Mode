@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.darkMode {
+  background-color: #000000;
+  height: 15vh;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+.heading1 {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+.heading2 {
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+.darkModeCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  height: 25vh;
+  width: 25vw;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.darkModeCard2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 25vh;
+  width: 25vw;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid;
+  border-left: #000000;
+
+  border-bottom: #000000;
+}
+.light-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.dark-btn {
+  background-color: #000000;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
